@@ -17,7 +17,7 @@ public class project {
     @Temporal(TemporalType.TIMESTAMP)
     private Date date;
 
-    // getters & setters
+
     public int getId() { return id; }
 
     public String getName() { return name; }
