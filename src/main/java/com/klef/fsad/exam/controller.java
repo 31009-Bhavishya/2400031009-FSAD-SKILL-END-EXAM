@@ -13,13 +13,13 @@ public class controller {
         this.srv = srv;
     }
 
-    // INSERT
+    
     @PostMapping
     public project insert(@RequestBody project p) {
         return srv.insert(p);
     }
 
-    // DISPLAY
+    
     @GetMapping
     public List<project> getAll() {
         return srv.getAll();
