@@ -13,13 +13,13 @@ public class service {
         this.repo = repo;
     }
 
-    // INSERT
+    
     public project insert(project p) {
         p.setDate(new Date());
         return repo.save(p);
     }
 
-    // DISPLAY
+   
     public List<project> getAll() {
         return repo.findAll();
     }
